@@ -23,4 +23,14 @@ build/
 .env
 .env.local
 
-target/ # For Maven
+# Maven
+target/
+*.class
+*.jar
+
+# IDE - VS Code
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
