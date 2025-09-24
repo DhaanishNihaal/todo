@@ -217,6 +217,11 @@ public class TodoappGUI extends JFrame {
         }
     }
     private void refreshTodoList(){
+        loadTodos();
+        titleField.setText("");
+        descriptionArea.setText("");
+        completedCheckbox.setSelected(false);
+        filterComboBox.setSelectedIndex(0);
 
     }
     private void loadTodos(){
